@@ -3,14 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    const [count, setCount] = useState(7);
+    const [count, setCount] = useState(1);
 
     return (
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>Hello Vite + React!</p>
-                <div className="change">change</div>
+                <div>Test of images in /public directory:</div>
+                <img src="images/test.jpg" alt="test" />
                 <p>
                     <button
                         type="button"
